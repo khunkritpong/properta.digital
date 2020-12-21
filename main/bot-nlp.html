@@ -13,6 +13,12 @@
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
+        <!-- DataTables -->
+        <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <!-- Responsive datatable examples -->
+        <link href="../plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
+
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -58,28 +64,28 @@
                             <li>
                                 <a href="javascript: void(0);"><i class="ti-control-record"></i>Object<span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="#">API</a></li>
-                                    <li><a href="#">Dialogue</a></li>
-                                    <li><a href="#">Image</a></li>
-                                    <li><a href="#">Carousel</a></li>
-                                    <li><a href="#">Button</a></li>
-                                    <li><a href="#">Quick Reply</a></li>
-                                    <li><a href="#">Flex Message</a></li>
-                                    <li><a href="#">Rich Menu</a></li>
+                                    <li><a href="bot-api.html">API</a></li>
+                                    <li><a href="bot-dialogue.html">Dialogue</a></li>
+                                    <li><a href="bot-image.html">Image</a></li>
+                                    <li><a href="bot-carousel.html">Carousel</a></li>
+                                    <li><a href="bot-button.html">Button</a></li>
+                                    <li><a href="bot.quickreply.html">Quick Reply</a></li>
+                                    <li><a href="bot-flex.html">Flex Message</a></li>
+                                    <li><a href="bot-richmenu.html">Rich Menu</a></li>
                                 </ul>
                             </li> 
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="ti-control-record"></i>Mapping</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#l"><i class="ti-control-record"></i>Entities</a></li>
+                            <li class="nav-item"><a class="nav-link" href="bot-mapping.html"><i class="ti-control-record"></i>Mapping</a></li>
+                            <li class="nav-item"><a class="nav-link" href="bot-entities.html"><i class="ti-control-record"></i>Entities</a></li>
                         </ul>
                     </li> 
     
                     <li>
                         <a href="javascript: void(0);"><i data-feather="grid" class="align-self-center menu-icon"></i><span>Sale Page</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                         <ul class="nav-second-level" aria-expanded="false">
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="ti-control-record"></i>Infomation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="ti-control-record"></i>Products</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="ti-control-record"></i>Setup Page</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="ti-control-record"></i>Lead & Register</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sale-infomation.html"><i class="ti-control-record"></i>Infomation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sale-products.html"><i class="ti-control-record"></i>Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sale-setup.html"><i class="ti-control-record"></i>Setup Page</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sale-lead.html"><i class="ti-control-record"></i>Lead & Register</a></li>
                         </ul>
                     </li> 
     
@@ -156,11 +162,11 @@
                             <div class="page-title-box">
                                 <div class="row">
                                     <div class="col">
-                                        <h4 class="page-title">Connect Facebook</h4>
+                                        <h4 class="page-title">NLP</h4>
                                         <ol class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="javascript:void(0);">Properta</a></li>
                                             <li class="breadcrumb-item"><a href="javascript:void(0);">Connect Bot</a></li>
-                                            <li class="breadcrumb-item active">Connect Facebook</li>
+                                            <li class="breadcrumb-item active">Train bot Table</li>
                                         </ol>
                                     </div><!--end col-->
                                 </div><!--end row-->                                                              
@@ -169,40 +175,556 @@
                     </div><!--end row-->
                     <!-- end page title end breadcrumb -->
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-12">
                             <div class="card">
-                                <div class="card-body">                                    
-                                    <div class="general-label">
-                                        <form>
-                                            <div class="form-group row">
-                                                <label for="example-text-input" class="col-sm-2 col-form-label text-right">Input Text</label>
-                                                <div class="col-sm-10">
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label for="example-text-input" class="col-sm-2 col-form-label text-right">Input Text</label>
-                                                <div class="col-sm-10">
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label for="example-text-input" class="col-sm-2 col-form-label text-right">Input Text</label>
-                                                <div class="col-sm-10">
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-10 ml-auto">
-                                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                                    <button type="button" class="btn btn-danger">Cancel</button>
-                                                </div>
-                                            </div> 
-                                        </form>           
+                                <div class="card-header">
+                                    <div class="btn-group btn-group-toggle mb-2 mb-lg-0">
+                                        <button type="button" class="btn btn-sm btn-outline-primary waves-effect waves-light">Primary</button>
                                     </div>
-                                </div><!--end card-body-->
-                            </div><!--end card-->
-                        </div><!--end col-->
+                                    <div class="btn-group btn-group-toggle float-right">
+                                        <a href="#" class="btn btn-sm btn-outline-primary" id="Dash_Date">
+                                            <span class="day-name" id="Day_Name">Today:</span>&nbsp;
+                                            <span class="" id="Select_date">Jan 11</span>
+                                            <i data-feather="calendar" class="align-self-center icon-xs ml-1"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">
+                                            <i data-feather="download" class="align-self-center icon-xs"></i>
+                                        </a>
+                                    </div><!--end col-->  
+                                </div><!--end card-header-->
+                                <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                        <thead>
+                                        <tr>
+                                            <th>Keyword</th>
+                                            <th>Intent</th>
+                                            <th>Confident</th>
+                                            <th>Edit/Delete</th>
+                                        </tr>
+                                        </thead>
+    
+    
+                                        <tbody>
+                                        <tr>
+                                            <td>Kritpong Winters</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Garrett Winters</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ashton Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cedric Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Airi Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brielle Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Herrod Chandler</td>
+                                            <td>Sales Assistant</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rhona Davidson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>Tokyo</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Colleen Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sonya Frost</td>
+                                            <td>Software Engineer</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jena Gaines</td>
+                                            <td>Office Manager</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quinn Flynn</td>
+                                            <td>Support Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Charde Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Haley Kennedy</td>
+                                            <td>Senior Marketing Designer</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tatyana Fitzpatrick</td>
+                                            <td>Regional Director</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michael Silva</td>
+                                            <td>Marketing Designer</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Paul Byrd</td>
+                                            <td>Chief Financial Officer (CFO)</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gloria Little</td>
+                                            <td>Systems Administrator</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bradley Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dai Rios</td>
+                                            <td>Personnel Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jenette Caldwell</td>
+                                            <td>Development Lead</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Yuri Berry</td>
+                                            <td>Chief Marketing Officer (CMO)</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Caesar Vance</td>
+                                            <td>Pre-Sales Support</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Doris Wilder</td>
+                                            <td>Sales Assistant</td>
+                                            <td>Sidney</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Angelica Ramos</td>
+                                            <td>Chief Executive Officer (CEO)</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gavin Joyce</td>
+                                            <td>Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jennifer Chang</td>
+                                            <td>Regional Director</td>
+                                            <td>Singapore</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brenden Wagner</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fiona Green</td>
+                                            <td>Chief Operating Officer (COO)</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shou Itou</td>
+                                            <td>Regional Marketing</td>
+                                            <td>Tokyo</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michelle House</td>
+                                            <td>Integration Specialist</td>
+                                            <td>Sidney</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Suki Burks</td>
+                                            <td>Developer</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Prescott Bartlett</td>
+                                            <td>Technical Author</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gavin Cortez</td>
+                                            <td>Team Leader</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Martena Mccray</td>
+                                            <td>Post-Sales support</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Unity Butler</td>
+                                            <td>Marketing Designer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Howard Hatfield</td>
+                                            <td>Office Manager</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hope Fuentes</td>
+                                            <td>Secretary</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vivian Harrell</td>
+                                            <td>Financial Controller</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Timothy Mooney</td>
+                                            <td>Office Manager</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jackson Bradshaw</td>
+                                            <td>Director</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Olivia Liang</td>
+                                            <td>Support Engineer</td>
+                                            <td>Singapore</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bruno Nash</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sakura Yamamoto</td>
+                                            <td>Support Engineer</td>
+                                            <td>Tokyo</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thor Walton</td>
+                                            <td>Developer</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Finn Camacho</td>
+                                            <td>Support Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Serge Baldwin</td>
+                                            <td>Data Coordinator</td>
+                                            <td>Singapore</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zenaida Frank</td>
+                                            <td>Software Engineer</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zorita Serrano</td>
+                                            <td>Software Engineer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jennifer Acosta</td>
+                                            <td>Junior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cara Stevens</td>
+                                            <td>Sales Assistant</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hermione Butler</td>
+                                            <td>Regional Director</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lael Greer</td>
+                                            <td>Systems Administrator</td>
+                                            <td>London</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jonas Alexander</td>
+                                            <td>Developer</td>
+                                            <td>San Francisco</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shad Decker</td>
+                                            <td>Regional Director</td>
+                                            <td>Edinburgh</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michael Bruce</td>
+                                            <td>Javascript Developer</td>
+                                            <td>Singapore</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Donna Snider</td>
+                                            <td>Customer Support</td>
+                                            <td>New York</td>
+                                            <td class="text-right">                                                       
+                                                    <a href="#"><i class="las la-pen text-info font-18"></i></a>
+                                                    <a href="#"><i class="las la-trash-alt text-danger font-18"></i></a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
               
                     </div><!--end row-->
 
@@ -228,6 +750,24 @@
         <script src="assets/js/simplebar.min.js"></script>
         <script src="assets/js/moment.js"></script>
         <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+
+        <!-- Required datatable js -->
+        <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="../plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Buttons examples -->
+        <script src="../plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="../plugins/datatables/buttons.bootstrap4.min.js"></script>
+        <script src="../plugins/datatables/jszip.min.js"></script>
+        <script src="../plugins/datatables/pdfmake.min.js"></script>
+        <script src="../plugins/datatables/vfs_fonts.js"></script>
+        <script src="../plugins/datatables/buttons.html5.min.js"></script>
+        <script src="../plugins/datatables/buttons.print.min.js"></script>
+        <script src="../plugins/datatables/buttons.colVis.min.js"></script>
+        <!-- Responsive examples -->
+        <script src="../plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="../plugins/datatables/responsive.bootstrap4.min.js"></script>
+        <script src="assets/pages/jquery.datatable.init.js"></script>
+
 
         <!-- App js -->
         <script src="assets/js/app.js"></script>
